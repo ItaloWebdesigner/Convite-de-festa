@@ -102,14 +102,14 @@
 
 /* info html */
 
-@media screen and (min-width:1920px) {
+@media screen and (min-width:1300px) {
 .infopage{
     width: 100vw;
     height: 100vh;
 }
 
 .infopage .infoimg{
-    width: auto;
+    width: 30%;
     height: 100vh;
 }
 
@@ -118,20 +118,55 @@
 }
 
 .infopage .presente{
-    transform: translate(-210%, -50%);
+    transform: translate(-50%, -50%);
+    left: 58%;
 }
 
 .infopage .loc{
-    transform: translate(-395%, -50%);
+    transform: translate(-50%, -50%);
+    left: 49.5%;
 }
 
 .infopage .confirmar{
-    transform: translate(-570%, -50%);
+    transform: translate(-50%, -50%);
+    left: 42%;
 }
 
 }
 
-@media screen and (max-width:1919px) and (min-width:1000px){
+@media screen and (max-width:1299px) and (min-width:1000px){
+.infopage{
+    width: 100vw;
+    height: 100vh;
+}
+
+.infopage .infoimg{
+    width: 50%;
+    height: 100vh;
+}
+
+.infopage .botao{
+    left: 63%;
+}
+
+.infopage .presente{
+    transform: translate(-50%, -50%);
+    left: 63.5%;
+}
+
+.infopage .loc{
+    transform: translate(-50%, -50%);
+    left: 49.5%;
+}
+
+.infopage .confirmar{
+    transform: translate(-50%, -50%);
+    left: 36.5%;
+}
+
+}
+
+@media screen and (max-width:1299px) and (min-width:1000px){
 .infopage{
     width: 100vw;
     height: 100vh;
